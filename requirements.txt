@@ -1,0 +1,2 @@
+pytube==12.1.2 # for download from youtube
+flake8==6.0.0
