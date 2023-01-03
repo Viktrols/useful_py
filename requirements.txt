@@ -1,2 +1,4 @@
 pytube==12.1.2 # for download from youtube
+pdfplumber==0.7.6 # for pdf to mp3
+gTTS==2.3.0 # for pdf to mp3
 flake8==6.0.0

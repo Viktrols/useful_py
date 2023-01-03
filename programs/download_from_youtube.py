@@ -9,10 +9,10 @@ def download_video(link: str, path: str):
         video.download(path)
         return 'Done ✔'
     except PytubeError as pe:
-        return f'{pe}'
+        return f'Error: {pe}'
 
 
 if __name__ == '__main__':
-    link = input('Введите ссылку на видео: ')
+    link = input('Enter video link: ')
     path = 'videos/'
     print(download_video(link, path))
